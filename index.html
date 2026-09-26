@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Ball</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="start-screen">
+        <h1>Bouncing Ball</h1>
+        <button onclick="playButton()">Play</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+    </div>
+
+    <div class="buttons">
+        <button onclick="startButton()">Start</button>
+        <button onclick="restartButton()">New Game</button>
+        <button id="mute-btn" onclick="audioButton()">Mute/Unmute</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
