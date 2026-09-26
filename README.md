@@ -2,6 +2,9 @@
 
 A simple brick-breaker (Breakout-style) game built with vanilla JavaScript and the HTML5 Canvas API — no libraries or frameworks.
 
+## Play it live
+[habibamorgan.github.io/bouncing-ball-game](https://habibamorgan.github.io/bouncing-ball-game/)
+
 ## How to play
 
 Open `index.html` in a browser, hit **Play**, then **Start**. Use the **← / →** arrow keys to move the paddle and break all the blocks without letting the ball fall past you. You have 3 lives.
